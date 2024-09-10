@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER SNN_PROCESSOR
+	OPTION supported_peripherals = (SNN_PROCESSOR);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = SNN_PROCESSOR;
+END DRIVER

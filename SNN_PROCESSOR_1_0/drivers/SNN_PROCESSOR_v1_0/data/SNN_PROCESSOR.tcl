@@ -1,0 +1,5 @@
+
+
+proc generate {drv_handle} {
+	xdefine_include_file $drv_handle "xparameters.h" "SNN_PROCESSOR" "NUM_INSTANCES" "DEVICE_ID"  "C_CONTROLS_BASEADDR" "C_CONTROLS_HIGHADDR" "C_SYNAPSES_BASEADDR" "C_SYNAPSES_HIGHADDR" "C_PARAMSPACE_BASEADDR" "C_PARAMSPACE_HIGHADDR"
+}
